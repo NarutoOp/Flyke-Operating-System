@@ -1,0 +1,1 @@
+"C:\Program Files\qemu\qemu-system-x86_64.exe" "C:\Users\zinga\Desktop\FlykeOS\hello_world.iso"

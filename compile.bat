@@ -1,0 +1,1 @@
+"C:\Program Files\NASM\nasm.exe" -f bin "C:\Users\zinga\Desktop\FlykeOS\hello_world.asm" -o "hello_world.iso"
