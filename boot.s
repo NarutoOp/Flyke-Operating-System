@@ -20,7 +20,7 @@
 stackBottom:
 
 # define the maximum size of stack to 512 bytes
-.skip 4096
+.skip 512
 
 
 # set the stack top which grows from higher to lower
@@ -36,8 +36,8 @@ _start:
   # assign current stack pointer location to stackTop
 	mov $stackTop, %esp
 
-  # call the kernel main function
-	call kernel_entry
+  # call the kernel main source
+	call KERNEL_MAIN
 
 	cli
 
